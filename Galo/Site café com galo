@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>café & código</title>
+</head>
+<body>
+    <header>
+        <h1>café e codigo</h1>
+        <p> onde boas ideias começam com café</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">inicio</a>
+        <a href="#sobre">sobre</a>
+        <a href="#cardapio">cardapio</a>
+        <a href="#contato">contato</a>
+    </nav>
+
+    <main>
+        <sectio id="inicio"> 
+            <h2>Bem-Vindo</h2>
+            <p>
+                Bem-Vindo à nossa cafeteria.
+                Aqui você encontra café, lanches e um ótimo
+                espaço para estudar e programar
+            </p>
+        </section >
+        
+
+        <section id="sobre">
+            <h2>sobre nós</h2>
+            <p>
+                A café & codigo nasceu da união de duas paixões
+                tecnologia e café
+            </p>
+        </section>
+
+        <section id="cardapio">
+            <h2>Nosso cardapio</h2>
+
+            <h3>Cafés</h3>
+            <ul>
+                <li>Café Expresso</li>
+                <li>Cappucino</li>
+                <li>Café com Leite</li>
+            </ul>
+            <h3>Lanches</h3>
+            <ul>
+                <li>Pão de queijo</li>
+                <li>Croissant</li>
+                <li>Sanduiche Natural</li>
+            </ul>
+        </section>
+        <section id="contato">
+        <h2>Contato</h2>
+        <p>Telefone: (19) 4002 - 8922</p>
+        <p>Email: soubonitinho@gmail.com</p>
+    </section>
+    </main>
+
+    <footer>
+        café & codigo - 2026
+    </footer>
+</body>
+</html>
