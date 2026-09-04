@@ -1,0 +1,37 @@
+Caso 1 - 
+Resposta: PaaS 
+Escolhi PaaS porque a startup precisa de uma infraestrutura que permita desenvolver, testar e colocar a aplicação no ar rapidamente, 
+sem precisar se preocupar diretamente com servidores, sistema operacional e manutenção da infraestrutura. 
+Isso reduz custos e facilita o trabalho da equipe de desenvolvimento, permitindo que ela foque principalmente na aplicação.
+
+Caso 2 - 
+Resposta:
+IaaS, pois permite maior controle sobre o sistema operacional e as configurações da infraestrutura,
+sendo ideal para migrar um sistema legado que depende de Linux e configurações específicas para a nuvem.
+
+Caso 3 - 
+Resposta:
+SaaS, pois oferece um software pronto pela internet, sem a necessidade de instalar ou administrar servidores e sistemas operacionais, 
+ficando toda a infraestrutura sob responsabilidade do provedor.
+
+Caso 4 -
+Resposta 
+
+A tendência é PaaS
+
+Caso 5 - 
+Resposta:
+
+não, porque
+Uma arquitetura pode combinar diferentes modelos:
+E-mail
+-
+SaaS
+
+Aplicação própria
+-
+PaaS
+
+Servidor especial
+-
+IaaS
