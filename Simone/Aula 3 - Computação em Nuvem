@@ -1,0 +1,37 @@
+
+AULA 3 ETAPA 1 - COMPUTAÇÃO EM NUVEM
+
+root@ubuntu:~$ hostname
+ubuntu
+root@ubuntu:~$ pwd
+/root
+
+AULA 3 ETAPA 2 - COMPUTAÇÃO EM NUVEM
+
+root@ubuntu:~$ mkdir aula3
+root@ubuntu:~$ cd aula3
+root@ubuntu:~/aula3$ echo "<h1>Computacao em Nuvem</h1>" >> Index.html
+<h1>Computacao em Nuvem</h1> Index.html
+root@ubuntu:~/aula3$ echo "<p>Meu primeiro servico web remoto</p>">> Index.html
+root@ubuntu:~/aula3$ cat Index.html
+<p>Meu primeiro servico web remoto</p>
+<h1>Computacao em Nuvem</h1>
+ 
+
+AULA 3 ETAPA 3 - COMPUTAÇÃO EM NUVEM
+root@ubuntu:~/aula3$ 
+python3 -m http.server 8080
+Serving HTTP on 0.0.0.0 port 8080 (http://0.0.0.0:8080/) ...
+127.0.0.1 - - [09/Sep/2026 23:21:29] "GET / HTTP/1.1" 200 -
+
+AULA 3 ETAPA 4 - COMPUTAÇÃO EM NUVEM
+
+root@ubuntu:~$ curl localhost:8080
+<h1> Computacao em Nuvem </h1>
+<p> Primeiro codigo em Nuvem! <p/>
+<p> aula3-Modelos de Implantacao</P>
+root@ubuntu:~$ curl localhost:8080
+<h1> Computacao em Nuvem </h1>
+<p> Primeiro codigo em Nuvem! <p/>
+<p> aula3-Modelos de Implantacao</P>
+<p> aluno-Gabriel Ribeiro</p>
