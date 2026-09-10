@@ -1,0 +1,17 @@
+EXERCICIOS
+
+root@ubuntu:~$ hostname
+ubuntu
+root@ubuntu:~$ hostname -i
+127.0.0.1
+
+1. Qual é o hostname do servidor?
+Resposta:ubuntu
+2. Qual endereço IP apareceu?
+Resposta:127.0.0.1
+3. Onde está o arquivo index.html?
+Resposta:root
+4. Onde está executando o servidor HTTP?
+Resposta:localhost 8080
+5. Seu computador precisou instalar um servidor web?
+Resposta: Não
