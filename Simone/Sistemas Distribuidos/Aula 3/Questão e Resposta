@@ -1,0 +1,20 @@
+Q: Qual é o principal problema da arquitetura atual?
+
+R: O principal problema é que existe apenas um servidor para atender 20.000 alunos, criando um grande gargalo. Se muitos alunos acessarem o sistema ao mesmo tempo, o servidor pode ficar sobrecarregado, deixando o sistema lento ou até indisponível.
+
+Q: O que acontece se o servidor falhar?
+
+R: Se o único servidor falhar, todo o sistema acadêmico ficará indisponível, pois não existe outro servidor para assumir as funções. Isso caracteriza um ponto único de falha.
+
+Q: Adicionar mais servidores poderia ajudar? Por quê?
+
+R: Sim. Adicionar mais servidores permitiria dividir as requisições entre várias máquinas, aumentando a capacidade de processamento e reduzindo a sobrecarga. Além disso, se um servidor apresentar problema, os outros podem continuar atendendo aos alunos.
+
+Q: Qual seria a função de um balanceador de carga?
+
+R: O balanceador de carga seria responsável por distribuir as requisições dos 20.000 alunos entre os servidores disponíveis. Dessa forma, nenhum servidor ficaria sobrecarregado e o sistema teria maior disponibilidade.
+
+Q: Você utilizaria Cliente-Servidor ou P2P para esse sistema acadêmico? Justifique.
+
+R: Eu utilizaria a arquitetura Cliente-Servidor, pois um sistema acadêmico precisa centralizar informações importantes, como alunos, notas, disciplinas e matrículas. Os alunos seriam os clientes e os servidores ficariam responsáveis pelo processamento e acesso ao banco de dados.
+O modelo P2P não seria adequado, pois não é interessante que os computadores dos próprios alunos compartilhem diretamente os dados acadêmicos entre si.
