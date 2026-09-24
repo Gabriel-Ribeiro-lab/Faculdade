@@ -1,0 +1,29 @@
+Respondam:
+
+
+
+Uma universidade possui um sistema acadêmico utilizado por 20.000 alunos.
+Atualmente existe apenas:
+
+20,000 alunos --> 1 servidor --> BANCO DE DADOS
+
+Sua equipe precisa propor uma melhoria.
+Responda:
+1. Qual é o principal problema da arquitetura atual?
+2. O que acontece se o servidor falhar?
+3. Adicionar mais servidores poderia ajudar? Por quê?
+4. Qual seria a função de um balanceador de carga?
+5. Você utilizaria Cliente-Servidor ou P2P para esse sistema acadêmico? Justifique.
+Desenhe a nova arquitetura proposta.
+
+Respostas>
+
+**1.** O grande volume de solicitações direcionadas para uma única máquina pode causar uma sobrecarga, fazendo com que um único servidor não consiga manter todos os serviços funcionando corretamente.
+
+**2.** Se o servidor apresentar uma falha, todo o sistema pode parar, pois ele é o único responsável por manter os serviços em funcionamento. Dessa forma, um problema nesse servidor pode resultar na paralisação completa do sistema.
+
+**3.** Sim. Ter apenas um servidor pode se tornar um grande gargalo. A adição de outras máquinas permitiria distribuir o processamento, aumentando o desempenho e reduzindo a concentração dos serviços em um único equipamento, diminuindo também a possibilidade de falhas.
+
+**4.** No cenário atual, com apenas uma máquina, ele continuaria sendo um ponto crítico de falha. Porém, poderia ser utilizado um único endereço IP para representar o servidor. Com a adição de várias máquinas, elas poderiam ser conectadas e trabalhar de maneira integrada, fazendo com que, para o usuário, todo o conjunto aparentasse ser apenas um servidor.
+
+**5.** O modelo mais adequado seria o cliente-servidor. Dessa forma, os alunos fariam apenas requisições ao servidor, sem precisar ter acesso direto aos dados ou receber requisições diretamente.
