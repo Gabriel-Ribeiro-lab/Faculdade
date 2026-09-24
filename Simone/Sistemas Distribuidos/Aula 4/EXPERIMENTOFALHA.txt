@@ -1,0 +1,5 @@
+**Explique por que uma chamada que parecia uma simples função deixou de funcionar.**
+Porque ela depende da internet/rede e do servidor. Mesmo parecendo uma função normal, ela precisa se comunicar com outro computador para funcionar.
+
+**Relacione o resultado com disponibilidade e dependência da rede.**
+O cliente depende do servidor e da rede para funcionar. Se o servidor cair ou a conexão falhar, a função não vai funcionar.
